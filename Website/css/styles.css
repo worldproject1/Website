@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+body {
+	font-family: 'Poppins', sans-serif;
+    background-color: #09101f;
+    margin: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1, h2, h3, p {
+	color: white;
+}

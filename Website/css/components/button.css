@@ -1,0 +1,40 @@
+.btn-2 {
+	background-color: #a7bcbf;
+	font-weight: bold;
+	border-radius: 5%;
+	color: whitesmoke;
+	padding: 10px 15px;
+	opacity: 0.7;
+	box-shadow: 0px 3px 5px 0px black;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-2:hover {
+	opacity: 0.8;
+	background-color: #748385;
+	transition: all 0.4s ease-in-out;
+    box-shadow: 0px 7px 10px 0px black;
+    color: #ffffff;
+}
+
+.btn-3 {
+	color: white;
+	background-color: #a7bcbf;
+	font-weight: bold;
+	border-radius: 5%;
+	padding: 10px 10px;
+	box-shadow: 0px 7px 10px 1px black;
+	transition: background-color 0.4s ease;
+	opacity: 0.8;
+}
+
+.btn-3:hover {
+	background-color: #627c85;
+	opacity: 0.9;
+}
+
+.bitcoin, .etherium {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
